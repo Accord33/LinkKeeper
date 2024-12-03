@@ -19,7 +19,7 @@ class App:
         self.PASSWORD = ''
         
         self.master = master
-        self.master.title('Wifi Auto')  # ウィンドウのタイトルを設定
+        self.master.title('LinkKeeper')  # ウィンドウのタイトルを設定
         self.master.geometry(f'{self.WIDTH}x{self.HEIGHT}')  # ウィンドウのサイズを設定
         
         # スペース用のラベルを追加
