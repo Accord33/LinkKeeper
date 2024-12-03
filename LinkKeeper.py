@@ -86,6 +86,7 @@ class App:
     def get_driver(self):
         # ブラウザのオプションを設定
         options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
         
