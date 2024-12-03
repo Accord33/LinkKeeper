@@ -65,7 +65,6 @@ class App:
         # 定期的にウェブページを開くジョブを設定
         def job(driver):
             driver.get("http://1.1.1.1:8086")
-            # driver.get("http://127.0.0.1:5500/GUI%E9%96%8B%E7%99%BA/wifi_auto/index.html")
             userid_input = driver.find_element(By.NAME, "name")
             userid_input.send_keys(self.USER_ID)
             password_input = driver.find_element(By.NAME, "pass")
