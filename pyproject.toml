@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wifi-auto"
+version = "0.1.0"
+description = ""
+authors = ["Accord33 <skb.ceg.biblia@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.14"
+customtkinter = "^5.2.2"
+pyinstaller = "^6.11.1"
+selenium = "^4.27.1"
+webdriver-manager = "^4.0.2"
+schedule = "^1.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
